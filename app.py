@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 
-st.title(" Mi Primera App!!")
+st.title("MEDLINEPLUS")
 
 st.header("Cuida los ojos y la visión")
 st.write("El cuidado de los ojos consiste en mantenerlos sanos mediante buenos hábitos diarios, chequeos regulares y tratamiento cuando sea necesario. ")
