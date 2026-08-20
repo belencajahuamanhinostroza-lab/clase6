@@ -8,7 +8,7 @@ st.write("El cuidado de los ojos consiste en mantenerlos sanos mediante buenos h
 image = Image.open('paolasuarez.jpg')
 st.image(image, caption='Revisate la vista')
 
-texto = st.text_input('Los ojos son una parte importante de la salud.', '¿Qué importancia tiene el cuidado de la vista?')
+texto = st.text_input('¿Qué importancia tiene el cuidado de la vista?', 'Escribe aquí')
 st.write('Algunas enfermedades oculares pueden provocar pérdida de la visión sin señales de advertencia tempranas, por lo que es importante detectarlas lo antes posible. Revise sus ojos con la frecuencia que le recomiende su profesional de la salud o si nota nuevos problemas de visión.')
 
 st.subheader("En esta página")
