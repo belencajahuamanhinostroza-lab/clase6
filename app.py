@@ -17,7 +17,7 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Prevención y factores de riesgo")
-    st.write("Dieta, nutrición y suplementos para la salud ocular, "Gafas de seguridad: Cómo prevenir lesiones oculares que pueden causar ceguera (Academia Americana de Oftalmología)")
+    st.write("Dieta, nutrición y suplementos para la salud ocular, "Gafas de seguridad: Cómo prevenir lesiones oculares que pueden causar ceguera")
     resp = st.checkbox('Recibir información')
     if resp:
        st.write('Correcto!')
