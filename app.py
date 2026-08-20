@@ -11,14 +11,14 @@ st.image(image, caption='Revisate la vista')
 texto = st.text_input('Los ojos son una parte importante de la salud.', '¿Qué importancia tiene el cuidado de la vista?')
 st.write('Algunas enfermedades oculares pueden provocar pérdida de la visión sin señales de advertencia tempranas, por lo que es importante detectarlas lo antes posible. Revise sus ojos con la frecuencia que le recomiende su profesional de la salud o si nota nuevos problemas de visión.')
 
-st.subheader("¿Cómo puedo mantener mis ojos sanos?")
+st.subheader("En esta página")
 
 col1, col2 = st.columns(2)
 
 with col1:
     st.subheader("Prevención y factores de riesgo")
-    st.write("Dieta, nutrición y suplementos para la salud ocular (Academia Americana de Oftalmología), "Gafas de seguridad: Cómo prevenir lesiones oculares que pueden causar ceguera (Academia Americana de Oftalmología)")
-    resp = st.checkbox('Recibir inoformación')
+    st.write("Dieta, nutrición y suplementos para la salud ocular, "Gafas de seguridad: Cómo prevenir lesiones oculares que pueden causar ceguera (Academia Americana de Oftalmología)")
+    resp = st.checkbox('Recibir información')
     if resp:
        st.write('Correcto!')
   
